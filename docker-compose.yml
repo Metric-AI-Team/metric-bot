@@ -3,26 +3,26 @@ services:
   rasa:
     image: rasa-server-okteto:latest
     build: './'
-    volumes:
-    - ./data: /app/data
-    - ./actions: /app/actions
-    - ./tests: /app/tests
-    command: bash -c "rm -rf .rasa/* && rasa train && rasa run --enable-api --cors \"*\" -p 8080"
-    working_dir: "/app/"
     ports:
     - '5005:8080'
+    volumes:
+    - ./data:/app/data
+    - ./actions:/app/actions
+    - ./tests:/app/tests
+    command: bash -c "rm -rf .rasa/* && rasa train && rasa run --enable-api --cors \"*\" -p 8080"
+    working_dir: "/app/"
     networks:
     - all
 
   rasa-actions:
     image: rasa-server-okteto:latest
     build: './'
-    volumes:
-    - ./actions: /app/actions
-    command: bash -c "rasa run actions"
-    working_dir: "/app/"
     ports:
     - '5055:5055'
+    volumes:
+    - ./actions:/app/actions
+    command: bash -c "rasa run actions"
+    working_dir: "/app/"
     networks:
     - all
 
