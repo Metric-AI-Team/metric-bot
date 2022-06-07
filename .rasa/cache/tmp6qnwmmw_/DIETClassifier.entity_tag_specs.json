@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-loc",
+      "2": "I-loc",
+      "3": "L-loc",
+      "4": "U-loc",
+      "5": "B-nama",
+      "6": "I-nama",
+      "7": "L-nama",
+      "8": "U-nama",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-loc": 1,
+      "I-loc": 2,
+      "L-loc": 3,
+      "U-loc": 4,
+      "B-nama": 5,
+      "I-nama": 6,
+      "L-nama": 7,
+      "U-nama": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
