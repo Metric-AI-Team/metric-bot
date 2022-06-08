@@ -14,7 +14,7 @@ WORKDIR /app
 # upgrade pip version
 RUN pip install --no-cache-dir --upgrade pip
 
-RUN pip install rasa:3.1.0
+RUN pip install rasa
 
 ADD credentials.yml credentials.yml
 ADD endpoints.yml endpoints.yml
