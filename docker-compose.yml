@@ -4,6 +4,10 @@ services:
     image: rasa/duckling:latest
     build: './'
     restart: always
+    volumes:
+    - ./Chatroom.css
+    - ./Chatroom.js
+    - ./index.html
     command: python -m http.server
     ports:
     - 8000:8000
@@ -16,7 +20,6 @@ services:
     restart: always
     volumes:
     - ./data:/app/data
-    - ./actions:/app/actions
     - ./models:/app/models
     command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
     ports:

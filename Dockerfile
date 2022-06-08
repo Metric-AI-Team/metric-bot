@@ -21,3 +21,7 @@ ADD endpoints.yml endpoints.yml
 ADD config.yml config.yml
 ADD domain.yml domain.yml
 
+ADD Chatroom.css Chatroom.css
+ADD Chatroom.js Chatroom.js
+ADD index.html index.html
+
