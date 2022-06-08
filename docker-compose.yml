@@ -10,7 +10,7 @@ services:
     - ./index.html
     command: python -m http.server
     ports:
-    - 8000:8000
+    - 8080:8080
     networks:
     - all
     
@@ -22,9 +22,9 @@ services:
     - ./data:/app/data
     - ./actions:/app/actions
     - ./models:/app/models
-    command: bash -c "rm -rf models/* && rasa train nlu && rasa run --enable-api --cors \"*\" --debug"
+    command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
     ports:
-    - '5005:5005'
+    - '5006:5005'
     public: true
     working_dir: "/app/"
     networks:
