@@ -6,7 +6,7 @@ services:
     restart: always
     command: python -m http.server
     ports:
-    - 8080:8080
+    - 8000:8000
     networks:
     - all
     
