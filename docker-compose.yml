@@ -4,6 +4,8 @@ services:
     image: rasa/duckling:latest
     build: './'
     restart: always
+    volumes:
+    - ./
     command: python -m http.server
     ports:
     - 8000:8000
