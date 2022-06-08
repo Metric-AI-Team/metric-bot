@@ -20,10 +20,11 @@ services:
     restart: always
     volumes:
     - ./data:/app/data
+    - ./actions:/app/actions
     - ./models:/app/models
-    command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
+    command: bash -c "rm -rf models/* && rasa train nlu && rasa run --enable-api --cors \"*\" --debug"
     ports:
-    - '5006:5005'
+    - '5005:5005'
     public: true
     working_dir: "/app/"
     networks:
