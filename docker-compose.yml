@@ -2,6 +2,9 @@ version: '3.4'
 services:
   duckling-server:
     image: rasa/duckling:latest
+    build: './'
+    restart: always
+    command: python -m http.server
     ports:
     - 8000:8000
     networks:
