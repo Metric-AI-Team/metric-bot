@@ -13,7 +13,7 @@ WORKDIR /app
 
 # upgrade pip version
 RUN pip install --no-cache-dir --upgrade pip
-
+RUN pip install pyowm
 RUN pip install rasa
 
 ADD credentials.yml credentials.yml
