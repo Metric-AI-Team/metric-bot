@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  duckling-server:
+  rasa:
     image: rasa-okteto:latest
     build: './'
     restart: always
