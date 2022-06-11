@@ -4,8 +4,6 @@ services:
     image: rasa-okteto:latest
     build: './'
     restart: always
-    volumes:
-    - ./pages:/app/pages
     command: python -m http.server
     ports:
     - 8000:8000
