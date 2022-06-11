@@ -28,8 +28,8 @@ pipeline:
   - name: FallbackClassifier
     threshold: 0.3
     ambiguity_threshold: 0.1
-  # - name: DucklingEntityExtractor
-  #   url: "https://duckling-server:8000"
+  - name: DucklingEntityExtractor
+    url: "https://duckling-server:8000"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
