@@ -12,6 +12,17 @@ rules:
   - intent: choose_st
   - action: utter_st
 
+- rule: show kalimat awal
+  steps:
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+
 - rule: to st 1
   steps:
   - intent: choose_st_1

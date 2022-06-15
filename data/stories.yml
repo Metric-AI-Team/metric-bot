@@ -2,7 +2,7 @@ version: "3.1"
 
 stories:
 
-- story: interactive_story_1
+- story: batal
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -17,7 +17,7 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
-- story: interactive_story_1
+- story: memilih button streetfood v1
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -39,7 +39,7 @@ stories:
   - action: utter_st_1
   - action: utter_st_1_btn
 
-- story: interactive_story_1
+- story: memilih button streetfood v2
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -61,7 +61,7 @@ stories:
   - action: utter_st_2
   - action: utter_st_2_btn
 
-- story: interactive_story_1
+- story: memilih button streetfood v3
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -83,7 +83,7 @@ stories:
   - action: utter_st_3
   - action: utter_st_3_btn
 
-- story: interactive_story_1
+- story: memilih button makanan khas v1
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -105,7 +105,7 @@ stories:
   - action: utter_khas_1
   - action: utter_khas_1_btn
 
-- story: interactive_story_1
+- story: memilih button makanan khas v2
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -127,7 +127,7 @@ stories:
   - action: utter_khas_2
   - action: utter_khas_2_btn
 
-- story: interactive_story_1
+- story: memilih button makanan khas v3
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -150,7 +150,7 @@ stories:
   - action: utter_khas_3_btn
 
 
-- story: interactive_story_1
+- story: memilih button makanan oleholeh v1
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -172,7 +172,7 @@ stories:
   - action: utter_oleh_1
   - action: utter_oleh_1_btn
 
-- story: interactive_story_1
+- story: memilih button makanan oleholeh v2
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -194,7 +194,7 @@ stories:
   - action: utter_oleh_2
   - action: utter_oleh_2_btn
 
-- story: interactive_story_1
+- story: memilih button makanan oleholeh v3
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -216,7 +216,7 @@ stories:
   - action: utter_oleh_3
   - action: utter_oleh_3_btn
 
-- story: interactive_story_1
+- story: memilih button alasan
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -243,7 +243,7 @@ stories:
   - action: utter_alasan_empat
   - action: utter_back_to_menu
 
-- story: interactive_story_1
+- story: memilih button cuaca
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -266,7 +266,7 @@ stories:
     - loc: dago
   - action: action_cuaca
 
-- story: interactive_story_1
+- story: memilih button wisata keluarga v1
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -288,7 +288,7 @@ stories:
   - action: utter_alun
   - action: utter_alun_btn
 
-- story: interactive_story_1
+- story: memilih button wisata keluarga v2
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -310,7 +310,7 @@ stories:
   - action: utter_greatasiaafrika
   - action: utter_greatasiaafrika_btn
 
-- story: interactive_story_1
+- story: memilih button wisata keluarga v3
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -332,7 +332,7 @@ stories:
   - action: utter_transstudio
   - action: utter_transstudio_btn
 
-- story: interactive_story_1
+- story: memilih button wisata keluarga v4
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -354,7 +354,7 @@ stories:
   - action: utter_orchid
   - action: utter_orchid_btn
 
-- story: interactive_story_1
+- story: memilih button wisata sejarah v1
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -376,7 +376,7 @@ stories:
   - action: utter_monumenbla
   - action: utter_monumenbla_btn
 
-- story: interactive_story_1
+- story: memilih button wisata sejarah v2
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -398,7 +398,7 @@ stories:
   - action: utter_gedungmerdeka
   - action: utter_gedungmerdeka_btn
 
-- story: interactive_story_1
+- story: memilih button wisata sejarah v3
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -420,7 +420,7 @@ stories:
   - action: utter_gedungsate
   - action: utter_gedungsate_btn
 
-- story: interactive_story_1
+- story: memilih button wisata sejarah v4
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -442,7 +442,7 @@ stories:
   - action: utter_museummandala
   - action: utter_museummandala_btn
 
-- story: interactive_story_1
+- story: memilih button wisata honeymoon v1
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -464,7 +464,7 @@ stories:
   - action: utter_glampinglegok
   - action: utter_glampinglegok_btn
 
-- story: interactive_story_1
+- story: memilih button wisata honeymoon v2
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -486,7 +486,7 @@ stories:
   - action: utter_padmahotel
   - action: utter_padmahotel_btn
 
-- story: interactive_story_1
+- story: memilih button wisata honeymoon v3
   steps:
   - intent: greet
   - action: utter_greet_name
@@ -508,7 +508,7 @@ stories:
   - action: utter_sandalwood
   - action: utter_sandalwood_btn
 
-- story: interactive_story_1
+- story: memilih button wisata honeymoon v4
   steps:
   - intent: greet
   - action: utter_greet_name

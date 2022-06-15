@@ -366,19 +366,17 @@ entities:
 - loc
 slots:
   nama:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    influence_conversation: false
+    type: text
+    influence_conversation: true
     mappings:
-    - entity: nama
-      type: from_entity
+    - type: from_entity
+      entity: nama
   loc:
-    type: rasa.shared.core.slots.AnySlot
-    initial_value: null
-    influence_conversation: false
+    type: text
+    influence_conversation: true
     mappings:
-    - entity: loc
-      type: from_entity
+    - type: from_entity
+      entity: loc
 actions:
 - action_cuaca
 - action_nama_user
